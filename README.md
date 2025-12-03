@@ -1,26 +1,16 @@
 # Selvin-Perdomo_PT2
 
 
+Manual d’instal·lació:
 
-Configuración del sistema de virtualitzación (IsardVDI):
+1. Preparar la maquina virtual
+Primero, configuramos una máquina virtual en IsardVDI con Ubuntu 22.04 LTS. Le asignamos la cantidad adecuada de memoria RAM, CPU y espacio en disco. Una vez que instalamos Ubuntu, nos aseguramos de actualizar todos los paquetes para tener el sistema al día.
 
-    Explicar el procés de configuració d'IsardVDI (creació de la màquina virtual).
-      1.Lo primero que hemos hecho es entrar el isadVDI después entramos a crear nuevo escritorio y después buscamos una platilla de Ubuntu Desktop
-
-
-
-
-Instalación del gestor de archivos Nextcloud:
-
-    Descargar y instalar Nextcloud en la màquina virtual.
-     1.lo primero que hemos hecho es entrar a la máquina virtual, nos hemos ido a la terminal y hemos puesto comando
-     2.paso: 1 Mover el directorio del vitual host (cd /var/www/domini.local)
-             2 Quitar el contenido que tenia actualmente (sudo rm -rf *)
-             3 descargar el fichero .zip de la plataforma que hayamos escogido que en mi caso fue Nextclaud
-          
-    Configurar el servidor web (Apache o Nginx) y la base de datos (MySQL/MariaDB).
-    Verificar que Nextcloud este accesible desde del navegador.
-
+2. Instalar Apache, MariaDB y PHP
+A continuación, vamos a instalar los componentes esenciales para que Nextcloud funcione correctamente:
+Apache: este es el servidor web que se encargará de mostrar la página de Nextcloud.
+MariaDB: aquí es donde se almacenarán todos los datos de Nextcloud.
+PHP y sus extensiones: este es el lenguaje de programación que utiliza Nextcloud.  
 
 
 
